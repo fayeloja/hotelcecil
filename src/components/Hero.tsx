@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Hero() {
   return (
@@ -6,7 +6,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1763146741798-1d289241eaf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoaXN0b3JpYyUyMGhvdGVsJTIwTW9yb2Njb3xlbnwxfHx8fDE3NjQ3Njg3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          src="/imgs/the_hotel_cecil_1900.jpg"
           alt="Historic Hotel"
           className="w-full h-full object-cover"
         />
@@ -17,20 +17,22 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <div className="mb-6">
           <div className="inline-block border-2 border-amber-400 px-6 py-2 mb-8">
-            <p className="text-amber-400 tracking-[0.3em] text-sm">A SOCIAL HISTORY</p>
+            <p className="text-amber-400 tracking-[0.3em] text-sm">
+              A SOCIAL HISTORY
+            </p>
           </div>
         </div>
-        
+
         <h1 className="text-white mb-4 text-5xl md:text-7xl lg:text-8xl tracking-tight">
           NO BETTER ADDRESS!
         </h1>
-        
+
         <div className="w-24 h-0.5 bg-amber-400 mx-auto my-8"></div>
-        
+
         <p className="text-white/90 text-xl md:text-2xl mb-3">
           The Hotel Cecil, Tangier
         </p>
-        
+
         <p className="text-white/70 text-lg mb-12">
           By Andrew Clandermond and Dr. Terence MacCarthy
         </p>
